@@ -27,7 +27,7 @@ secrets:
 runtime:
   kind: docker
   # Filled in by the release workflow with the pushed image's digest.
-  image: ghcr.io/osintverse-community/hibp-breaches@sha256:0000000000000000000000000000000000000000000000000000000000000000
+  image: ghcr.io/osintverse-community/hibp-breaches@sha256:ab2ff543bd33d019cc5431dad42abfec0b89d568d37d170601cc7abb9f6ecc8c
   platforms: [linux/amd64, linux/arm64]
   command: ["hibp-breaches", "{email}"]
   output_format: json
